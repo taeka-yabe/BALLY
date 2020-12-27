@@ -1,0 +1,494 @@
+/* リセットCSS　始め*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* リセットCSS　終わり */
+
+html, 
+body { 
+   font-size: 12px;
+   margin: 0px
+   }
+
+  .page-header{
+    background: #000;
+  }
+  
+  .wrapper1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .83rem;
+    /* background: #000; */
+    padding-left: 40px;
+    padding-right: 40px;
+    /* line-height: 16px; */
+    letter-spacing: 2px;
+    height: 48px;
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 1280px;
+    color: #fff;
+  }
+      
+  .utility-link{
+  color:white;
+  text-decoration: none;
+}
+  .utility-link span{
+    padding-left: 10px;
+  }
+
+  nav{
+    width: 100%;
+    height: 100px;
+  }
+    
+  .wrapper2{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 1200px;
+    height: 100px;
+}
+
+  .logo{
+    width: 152.5px;
+    height: 73px;
+  }
+
+  .main-nav__logo{
+    font-family: 'Gungsuh';
+    font-weight: bold; 
+    /* 'GungsuhChe' */
+  }
+
+  .logo p{
+    width: 132.5px;
+    height: 25px;
+    margin: 38px 20px 0 0;
+    font-size: 3rem;
+  }
+  /* バリーの文字を大きくするにはどうしたら良いか？ */
+
+  .main-nav__navs{
+    display: flex;
+    height: 100px;
+    padding-right: 570px;
+
+    /* バックのアイコンの右側の10pxのpaddingがなくなれば670pxに丁度おさまる。 */
+    /* justify-content: space-between; */
+  }
+  
+  ul{
+    list-style: none;
+  }  
+  
+  .main-nav__goods{
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main-nav__goods li{
+    padding:38px 0 37px 30px;
+    font-size: 1.17rem;
+  }
+  
+  .main-nav__icon{
+    height: 63px;
+  }
+
+  .main-nav__icons{
+    display: flex;
+    padding:38px 0 37px 20px;
+    margin: 0;
+  }
+
+  .main-nav__icons i{
+    padding: 0 10px;
+    font-size: 1.5rem;
+  }
+
+  /* .fas{
+    padding-left: 10px;
+  } */
+
+  /* アイコンのサイズを大きくするのはどうしたら良いのか？ */
+
+  /* 最後のバックのアイコン、右だけpaddingするにはどうしたら良いか？ */
+  
+  .main-visual{
+    position: relative;
+  }
+  
+  .main-visual img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .site-wrapper1{
+    height: 50px;
+    position: absolute;
+    top:50%;
+    transform: translatey(-50%);
+    width: 100%;
+  }
+  
+  .site-wrapper1__h1{
+    max-width: 1280px;
+    width: 1200px;
+    height: 50px;
+    margin: 0px; 
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .site-wrapper1__h1 h1{
+    color:white;
+    max-width: 1280px;
+    width: 760px;
+    height: 50px;
+    margin: 0px;
+    font-size: 3.33rem;
+  }
+
+  /* メンズの文字を大きくするのはどうしたら良いか？ */
+
+.intro-section__content{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding:84px 0px 10px 0px;
+    width:1240px ;
+  }
+
+  .intro-section__img1{
+    width: 580px;
+    height: 580px;
+    padding: 0 20px 0 20px;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .intro-section__content__goods{
+    position: absolute;
+    left:50%;
+    bottom:40px;
+    transform: translatex(-50%);
+    text-align: center;
+  }
+  
+  .intro-section__content__goods p{
+    font-size: 2.33rem;
+    margin: 0 0 10px 0 ;
+    /* transform: translatex(-50%); */
+  }
+  
+  .intro-section__content__goods span{
+    border-bottom: solid 1px;
+  }
+    
+  .intro-section__content2{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding:0 40px 40px 40px;
+    width: 1200px;
+  }
+    
+  .intro-section__content2 img{
+    width: 1200px;
+    height: 500px;
+  }
+
+  .intro-section__content2__span{
+    position: absolute;
+    top:45%;
+    left: 9%;
+  } 
+  
+  .intro-section__content2__span h2{
+    color: white;
+    font-size: 3.33rem;
+    margin-bottom: 28px;
+  }
+
+  .intro-section__content2__span div{
+    background-color: #fff;
+    width: 118px;
+    height: 16px;
+    padding: 18px 30px 14px 30px;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+  .intro-section__content2__span span{
+   vertical-align : middle ;
+  }
+
+  .site-wrapper4{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 333px;
+  }
+
+  .intro-section__content2__form{
+    margin: 0 auto;
+    /* max-width: 1280px; */
+    padding:75px 40px;
+    width: 1200px;
+    height:183px ;
+    display: flex;
+    background-color: #f5f5f5;
+  }
+
+  .intro-section__content2__p{
+    font-size: 1.33rem;
+    flex-basis: 815px;
+    height: 64px;
+    margin-top: 8px;
+  }
+
+  .forms{
+    flex-basis: 379px;
+  }
+
+  input.form1_1{
+    width:  326.984px;
+    height: 20px;
+    padding:16px 50px 12px 21px ;
+    border: solid 1px #c5c5c5;
+    font-size: .83rem;
+    letter-spacing: 2px;  
+    margin-bottom: 15px;
+  }
+
+  .form1,
+  .form2{
+    position: relative;
+  }
+
+  .btn1{
+    position: absolute;
+    left: 370px;
+    top:40%;
+    transform:translatey(-50%);
+    border: none; 
+    outline: none; 
+    background: transparent; 
+  }
+
+  input.form2_1{
+    width:299px ;
+    height: 20px;
+    padding:16px 50px 12px 21px ;
+    border: solid 1px #c5c5c5;
+    font-size: .83rem;
+    letter-spacing: 2px;  
+  }
+
+  .btn2{
+    position: absolute;
+    left: 340px;
+    top:50%;
+    transform:translatey(-50%);
+    border: none; 
+    outline: none; 
+    background: transparent; 
+  }
+
+ .contact-block{
+   font-size: 10px;
+   letter-spacing: .125em;
+   line-height: 2em;
+ }
+
+  .site-wrapper5{
+    margin: 0 auto;
+    max-width: 1280px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 1200px;
+  }
+
+  .site-wrapper5 h2{
+    height: 54px;
+    margin: 0 0 40px 0;
+    padding-top: 75px;
+    font-size: 2.67rem;
+    letter-spacing: 1px;
+    line-height:54px ;
+  }
+
+  .intro-section__content3{
+    margin: 0 auto;
+    max-width: 1280px;
+    padding:0 40px 75px 40px;
+    width: 1200px;
+    height:384px ;
+  }
+  
+  .intro-section__content3 img{
+    width: 270px;
+    height: 270px;
+    /* width: 25%; */
+  }
+
+  .content3-img1{
+    padding: 20px 20px 20px 0;
+  }
+
+  .content3-img2,
+  .content3-img3{
+    padding: 20px;
+  }
+
+  .content3-img4{
+    padding: 20px 0 20px 0;
+  }
+
+  /* なぜimg4丁度1200になるのに入らない？ */
+
+  .wrapper3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .83rem;
+    /* background: #000; */
+    padding-left: 40px;
+    padding-right: 40px;
+    /* line-height: 16px; */
+    letter-spacing: 2px;
+    height: 48px;
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+  
+  .site-wrapper7{
+    border-top: solid 1px rgb(216, 203, 203);
+    border-bottom: solid 1px rgb(216, 203, 203);
+  }
+  
+  .footer-bottom{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding:85px 40px 15px 40px;
+    width: 1200px;
+  }
+
+  .footer-bottom p{
+    margin: 0 0 20px 0;
+    font-size: .83rem;
+    letter-spacing: 2px;
+    width: 236px;
+    height: 16px;
+  }
+
+  .footer-bottoms{
+    padding-right: 40px;
+    width: 236px;
+    height: 316px;
+  }
+
+  .footer-bottoms li{
+    padding-bottom: 4px;
+    margin-bottom: 13px;
+    font-size: 1.17rem;
+  }
+
+  .footer-bottoms i{
+    padding-right: 10px;
+  }
+  
+  .footer-end{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding:40px;
+    width: 1200px;
+  }
+
+  .footer-end__icon{
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+  .footer-end__icon i{
+    padding:0 7px;
+    font-size: 12px;
+  }
+
+  .footer-end__p1{
+    margin-right: 12px;
+  }
+
+  .copyright{
+    margin: 10px 0 0 735px;
+    /* text-transform: inherit; */
+  }
+
+
+
+
+
+
+
+
+
+
